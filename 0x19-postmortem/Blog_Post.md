@@ -3,6 +3,7 @@ Incident Analysis
 Summary
 Following the release of a new feature on our Ruby on Rails site, we received multiple user complaints about login and sign-up issues. This came as a surprise since the feature had worked during testing. We received 127 emails reporting the problem, which highlighted the urgency to investigate and address the issue promptly. After cloning the site's repository from GitBug and following the installation instructions, we discovered that the site failed to start. Eventually, we identified the cause as an oversight in updating the project's requirements. The site experienced malfunctions from 9:55 AM GMT+1 to 11:20 AM GMT+1.
 
+<<<<<<< HEAD
 Timeline
 05-02-2022 9:55 AM GMT+1 - Initial complaint received from a customer regarding login issues.
 05-02-2022 10:20 AM GMT+1 - Winus, one of our backend developers, encountered the same issue.
@@ -20,3 +21,8 @@ Corrective and Preventive Measures
 Establish a continuous integration pipeline to conduct builds on each pull request branch. This ensures that builds pass in the pull request branch before merging with the deployment branch.
 Implement a monitoring system for the database and application servers to promptly detect and address any issues.
 Develop comprehensive tests for new features, ensuring they pass before merging with the deployment branch.
+=======
+
+
+![post-mortem-meetings](https://github.com/Mutwol1/alx-system_engineering-devops/assets/104631175/e22edbb7-ead3-4f20-97db-633296f22c8f)
+>>>>>>> 2cb798a6f766dea0f664694fc6e0aa2fd9c14bfe
